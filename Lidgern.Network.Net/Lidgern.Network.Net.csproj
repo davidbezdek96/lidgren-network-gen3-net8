@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Encryption\NetAESEncryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Encryption\NetDESEncryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Encryption\NetRC2Encryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Encryption\NetTripleDESEncryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Encryption\NetXorEncryption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
